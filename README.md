@@ -59,6 +59,10 @@ rs start
         <td>templateEngine</td>
         <td>指定使用模板引擎，目前支持 EJS、Jade 和 Mustache ！</td>
     </tr>
+    <tr>
+        <td>port</td>
+        <td>访问测试服务器端口</td>
+    </tr>
 </table>
 
 路由配置文件（名称随意），后缀为`json`：
