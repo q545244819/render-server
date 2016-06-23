@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+'use strict'
+
+const program = require('commander')
+const fs = require('fs-extra')
+
+const package = fs.readJsonSync('../package.json')
+
+program.version(package.version)
+
+program
+  .command('help')
+  .description('Show the help list!')
+  .action(() => {
+    program.outputHelp()
+  })
+
+program
+  .command('start')
+  .description('Start your render-server in current folder!')
+  .action(require('../lib/index'))
+
+program.parse(process.argv)

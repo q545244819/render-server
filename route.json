@@ -1,0 +1,36 @@
+{
+  "/": {
+    "method": "get",
+    "template": "index",
+    "data": {
+      "title": "Hey",
+      "message": "Hello there! && {{ query.page }}"
+    }
+  },
+  "/user": {
+    "method": "get",    
+    "template": "index",
+    "data": {
+      "title": "Hey User",
+      "message": "Hello User!"
+    }
+  },
+  "/api": [
+    {
+      "method": "get",
+      "path": "/:name/salary",
+      "data": {
+        "name": "{{ params.name }}",        
+        "salary": 2000
+      }
+    },
+    {
+      "method": "get",
+      "path": "/:name/age",
+      "data": {
+        "name": "{{ params.name }}",
+        "age": 20  
+      }
+    }
+  ]
+}

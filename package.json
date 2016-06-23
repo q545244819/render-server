@@ -1,0 +1,26 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "rs": "./bin/index"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "fs-extra": "^0.30.0",
+    "jade": "^1.11.0",
+    "mustache": "^2.2.1",
+    "mustache-express": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
