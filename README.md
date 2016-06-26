@@ -57,7 +57,7 @@ rs start
     </tr>
     <tr>
         <td>templateEngine</td>
-        <td>指定使用模板引擎，目前支持 EJS、Jade 和 Mustache ！</td>
+        <td>指定使用模板引擎，目前支持 ejs、jade 和 mustache ！</td>
     </tr>
     <tr>
         <td>port</td>
