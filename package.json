@@ -1,6 +1,6 @@
 {
   "name": "render-server",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A render-server for By NodeJS!Support EJS,Jade and mustache!",
   "email": "johnhsm2333@gmail.com",
   "main": "index.js",

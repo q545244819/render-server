@@ -5,9 +5,7 @@
 const program = require('commander')
 const fs = require('fs-extra')
 
-const package = fs.readJsonSync('../package.json')
-
-program.version(package.version)
+program.version('0.0.1')
 
 program
   .command('help')
